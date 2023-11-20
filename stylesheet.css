@@ -38,6 +38,10 @@
     display: block;
   }
 
+  #github {
+      padding-left: 50px;
+  }
+
 
 body {
     background-color: whitesmoke;
@@ -47,13 +51,44 @@ h1 {
     margin: auto;
 }
 
-#profile-div {
+.profile-div {
     padding-top: 100px;
     padding-left: 150px;
+    background-color: bisque;
 }
 
 #profile-pic {
     width: 200px;
-    height: auto;
+    height: 150px;
+    border-radius: 10%
     
+}
+
+.center {
+    width: 50%;
+    margin: auto;
+}
+
+#name {
+    width: 75%;
+    margin: auto;
+}
+
+#flightless {
+    height: 100px;
+    width: 100px;
+}
+
+.Contact {
+    padding-top: 50px;
+    background-color: beige;
+}
+
+#contact-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#contact-info > li {
+    list-style: none;
 }
